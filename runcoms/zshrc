@@ -14,3 +14,9 @@ fi
 #
 bindkey '^R' history-incremental-search-backward
 
+export PATH=$PATH:$GOPATH/bin:/Users/jerodbury/bin
+
+# added by travis gem
+[ -f /Users/jerodbury/.travis/travis.sh ] && source /Users/jerodbury/.travis/travis.sh
+
+
