@@ -74,3 +74,5 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 bindkey '^R' history-incremental-search-backward
+
+export PATH="$HOME/.cargo/bin:$PATH"
